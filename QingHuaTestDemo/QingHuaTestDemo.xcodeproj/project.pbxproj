@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048B275EB61057769348D2B4 /* libPods-QingHuaTestDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E6D5A54167AD5887AE74B5 /* libPods-QingHuaTestDemoTests.a */; };
+		550824D41DADD81600342C22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550824D31DADD81600342C22 /* main.m */; };
+		550824D71DADD81600342C22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550824D61DADD81600342C22 /* AppDelegate.m */; };
+		550824DA1DADD81600342C22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550824D91DADD81600342C22 /* ViewController.m */; };
+		550824DD1DADD81600342C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550824DB1DADD81600342C22 /* Main.storyboard */; };
+		550824DF1DADD81600342C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550824DE1DADD81600342C22 /* Assets.xcassets */; };
+		550824E21DADD81600342C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550824E01DADD81600342C22 /* LaunchScreen.storyboard */; };
+		550824ED1DADD81600342C22 /* QingHuaTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550824EC1DADD81600342C22 /* QingHuaTestDemoTests.m */; };
+		550824F81DADD81600342C22 /* QingHuaTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550824F71DADD81600342C22 /* QingHuaTestDemoUITests.m */; };
+		550825071DADDA1700342C22 /* libPLMediaStreamingKit(RTC).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550825061DADDA1700342C22 /* libPLMediaStreamingKit(RTC).a */; };
+		7C9AA35A59E13F769E4F5287 /* libPods-QingHuaTestDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5C5534F876D29DC5AB759C /* libPods-QingHuaTestDemoUITests.a */; };
+		B1B75DACA6344E5BA68F8F97 /* libPods-QingHuaTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A65CECC9D32CA48A57648AA /* libPods-QingHuaTestDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550824E91DADD81600342C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550824C71DADD81600342C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550824CE1DADD81600342C22;
+			remoteInfo = QingHuaTestDemo;
+		};
+		550824F41DADD81600342C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550824C71DADD81600342C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550824CE1DADD81600342C22;
+			remoteInfo = QingHuaTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC0021F16FF8072BD279ACE /* Pods-QingHuaTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingHuaTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QingHuaTestDemo/Pods-QingHuaTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1F5C5534F876D29DC5AB759C /* libPods-QingHuaTestDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QingHuaTestDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB821AC11C42160DA896DB4 /* Pods-QingHuaTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingHuaTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QingHuaTestDemo/Pods-QingHuaTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5182D8207398CA0DAA0E4EDF /* Pods-QingHuaTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingHuaTestDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QingHuaTestDemoTests/Pods-QingHuaTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		550824CF1DADD81600342C22 /* QingHuaTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingHuaTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550824D31DADD81600342C22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		550824D51DADD81600342C22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		550824D61DADD81600342C22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		550824D81DADD81600342C22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		550824D91DADD81600342C22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		550824DC1DADD81600342C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550824DE1DADD81600342C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		550824E11DADD81600342C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		550824E31DADD81600342C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550824E81DADD81600342C22 /* QingHuaTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QingHuaTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550824EC1DADD81600342C22 /* QingHuaTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingHuaTestDemoTests.m; sourceTree = "<group>"; };
+		550824EE1DADD81600342C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550824F31DADD81600342C22 /* QingHuaTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QingHuaTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550824F71DADD81600342C22 /* QingHuaTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingHuaTestDemoUITests.m; sourceTree = "<group>"; };
+		550824F91DADD81600342C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550825061DADDA1700342C22 /* libPLMediaStreamingKit(RTC).a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPLMediaStreamingKit(RTC).a"; sourceTree = "<group>"; };
+		69D61E575583D5F56ABC89A3 /* Pods-QingHuaTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingHuaTestDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QingHuaTestDemoTests/Pods-QingHuaTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		70F73CFF2A17D04A1AF6F1CA /* Pods-QingHuaTestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingHuaTestDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QingHuaTestDemoUITests/Pods-QingHuaTestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A65CECC9D32CA48A57648AA /* libPods-QingHuaTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QingHuaTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E6D5A54167AD5887AE74B5 /* libPods-QingHuaTestDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QingHuaTestDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16DEE4C823E9ED26273F6CD /* Pods-QingHuaTestDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingHuaTestDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QingHuaTestDemoUITests/Pods-QingHuaTestDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550824CC1DADD81600342C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B75DACA6344E5BA68F8F97 /* libPods-QingHuaTestDemo.a in Frameworks */,
+				550825071DADDA1700342C22 /* libPLMediaStreamingKit(RTC).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550824E51DADD81600342C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048B275EB61057769348D2B4 /* libPods-QingHuaTestDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550824F01DADD81600342C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9AA35A59E13F769E4F5287 /* libPods-QingHuaTestDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550824C61DADD81600342C22 = {
+			isa = PBXGroup;
+			children = (
+				550824D11DADD81600342C22 /* QingHuaTestDemo */,
+				550824EB1DADD81600342C22 /* QingHuaTestDemoTests */,
+				550824F61DADD81600342C22 /* QingHuaTestDemoUITests */,
+				550824D01DADD81600342C22 /* Products */,
+				C10C79E87300A1D80FDFBAD4 /* Pods */,
+				649297E3D21A100714CF265A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		550824D01DADD81600342C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550824CF1DADD81600342C22 /* QingHuaTestDemo.app */,
+				550824E81DADD81600342C22 /* QingHuaTestDemoTests.xctest */,
+				550824F31DADD81600342C22 /* QingHuaTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550824D11DADD81600342C22 /* QingHuaTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				550824D51DADD81600342C22 /* AppDelegate.h */,
+				550824D61DADD81600342C22 /* AppDelegate.m */,
+				550824D81DADD81600342C22 /* ViewController.h */,
+				550824D91DADD81600342C22 /* ViewController.m */,
+				550824DB1DADD81600342C22 /* Main.storyboard */,
+				550824DE1DADD81600342C22 /* Assets.xcassets */,
+				550824E01DADD81600342C22 /* LaunchScreen.storyboard */,
+				550824E31DADD81600342C22 /* Info.plist */,
+				550824D21DADD81600342C22 /* Supporting Files */,
+				550825051DADDA0200342C22 /* Frameworks */,
+			);
+			path = QingHuaTestDemo;
+			sourceTree = "<group>";
+		};
+		550824D21DADD81600342C22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				550824D31DADD81600342C22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		550824EB1DADD81600342C22 /* QingHuaTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				550824EC1DADD81600342C22 /* QingHuaTestDemoTests.m */,
+				550824EE1DADD81600342C22 /* Info.plist */,
+			);
+			path = QingHuaTestDemoTests;
+			sourceTree = "<group>";
+		};
+		550824F61DADD81600342C22 /* QingHuaTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				550824F71DADD81600342C22 /* QingHuaTestDemoUITests.m */,
+				550824F91DADD81600342C22 /* Info.plist */,
+			);
+			path = QingHuaTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		550825051DADDA0200342C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				550825061DADDA1700342C22 /* libPLMediaStreamingKit(RTC).a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		649297E3D21A100714CF265A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A65CECC9D32CA48A57648AA /* libPods-QingHuaTestDemo.a */,
+				A5E6D5A54167AD5887AE74B5 /* libPods-QingHuaTestDemoTests.a */,
+				1F5C5534F876D29DC5AB759C /* libPods-QingHuaTestDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10C79E87300A1D80FDFBAD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FB821AC11C42160DA896DB4 /* Pods-QingHuaTestDemo.debug.xcconfig */,
+				0DC0021F16FF8072BD279ACE /* Pods-QingHuaTestDemo.release.xcconfig */,
+				5182D8207398CA0DAA0E4EDF /* Pods-QingHuaTestDemoTests.debug.xcconfig */,
+				69D61E575583D5F56ABC89A3 /* Pods-QingHuaTestDemoTests.release.xcconfig */,
+				B16DEE4C823E9ED26273F6CD /* Pods-QingHuaTestDemoUITests.debug.xcconfig */,
+				70F73CFF2A17D04A1AF6F1CA /* Pods-QingHuaTestDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550824CE1DADD81600342C22 /* QingHuaTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550824FC1DADD81600342C22 /* Build configuration list for PBXNativeTarget "QingHuaTestDemo" */;
+			buildPhases = (
+				4AC463C3CDE9BDE81192E265 /* [CP] Check Pods Manifest.lock */,
+				550824CB1DADD81600342C22 /* Sources */,
+				550824CC1DADD81600342C22 /* Frameworks */,
+				550824CD1DADD81600342C22 /* Resources */,
+				6320A3E4F7993727F62A35B5 /* [CP] Embed Pods Frameworks */,
+				90BAD89B551EA70057A70F31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QingHuaTestDemo;
+			productName = QingHuaTestDemo;
+			productReference = 550824CF1DADD81600342C22 /* QingHuaTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		550824E71DADD81600342C22 /* QingHuaTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550824FF1DADD81600342C22 /* Build configuration list for PBXNativeTarget "QingHuaTestDemoTests" */;
+			buildPhases = (
+				05921375712237526D0B3F09 /* [CP] Check Pods Manifest.lock */,
+				550824E41DADD81600342C22 /* Sources */,
+				550824E51DADD81600342C22 /* Frameworks */,
+				550824E61DADD81600342C22 /* Resources */,
+				C982B221A56BD228C074BC88 /* [CP] Embed Pods Frameworks */,
+				6050C66C2EE249D4A39EC81D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550824EA1DADD81600342C22 /* PBXTargetDependency */,
+			);
+			name = QingHuaTestDemoTests;
+			productName = QingHuaTestDemoTests;
+			productReference = 550824E81DADD81600342C22 /* QingHuaTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		550824F21DADD81600342C22 /* QingHuaTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550825021DADD81600342C22 /* Build configuration list for PBXNativeTarget "QingHuaTestDemoUITests" */;
+			buildPhases = (
+				E26FCB88BEC63E45988A8EDB /* [CP] Check Pods Manifest.lock */,
+				550824EF1DADD81600342C22 /* Sources */,
+				550824F01DADD81600342C22 /* Frameworks */,
+				550824F11DADD81600342C22 /* Resources */,
+				60EBA56ADF496CB43F7B0322 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550824F51DADD81600342C22 /* PBXTargetDependency */,
+			);
+			name = QingHuaTestDemoUITests;
+			productName = QingHuaTestDemoUITests;
+			productReference = 550824F31DADD81600342C22 /* QingHuaTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550824C71DADD81600342C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "遇见远洋";
+				TargetAttributes = {
+					550824CE1DADD81600342C22 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					550824E71DADD81600342C22 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 550824CE1DADD81600342C22;
+					};
+					550824F21DADD81600342C22 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 550824CE1DADD81600342C22;
+					};
+				};
+			};
+			buildConfigurationList = 550824CA1DADD81600342C22 /* Build configuration list for PBXProject "QingHuaTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 550824C61DADD81600342C22;
+			productRefGroup = 550824D01DADD81600342C22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550824CE1DADD81600342C22 /* QingHuaTestDemo */,
+				550824E71DADD81600342C22 /* QingHuaTestDemoTests */,
+				550824F21DADD81600342C22 /* QingHuaTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550824CD1DADD81600342C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550824E21DADD81600342C22 /* LaunchScreen.storyboard in Resources */,
+				550824DF1DADD81600342C22 /* Assets.xcassets in Resources */,
+				550824DD1DADD81600342C22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550824E61DADD81600342C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550824F11DADD81600342C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05921375712237526D0B3F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC463C3CDE9BDE81192E265 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6050C66C2EE249D4A39EC81D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QingHuaTestDemoTests/Pods-QingHuaTestDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60EBA56ADF496CB43F7B0322 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QingHuaTestDemoUITests/Pods-QingHuaTestDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6320A3E4F7993727F62A35B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QingHuaTestDemo/Pods-QingHuaTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90BAD89B551EA70057A70F31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QingHuaTestDemo/Pods-QingHuaTestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C982B221A56BD228C074BC88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QingHuaTestDemoTests/Pods-QingHuaTestDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26FCB88BEC63E45988A8EDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550824CB1DADD81600342C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550824DA1DADD81600342C22 /* ViewController.m in Sources */,
+				550824D71DADD81600342C22 /* AppDelegate.m in Sources */,
+				550824D41DADD81600342C22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550824E41DADD81600342C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550824ED1DADD81600342C22 /* QingHuaTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550824EF1DADD81600342C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550824F81DADD81600342C22 /* QingHuaTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550824EA1DADD81600342C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550824CE1DADD81600342C22 /* QingHuaTestDemo */;
+			targetProxy = 550824E91DADD81600342C22 /* PBXContainerItemProxy */;
+		};
+		550824F51DADD81600342C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550824CE1DADD81600342C22 /* QingHuaTestDemo */;
+			targetProxy = 550824F41DADD81600342C22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		550824DB1DADD81600342C22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550824DC1DADD81600342C22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		550824E01DADD81600342C22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550824E11DADD81600342C22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		550824FA1DADD81600342C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		550824FB1DADD81600342C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550824FD1DADD81600342C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB821AC11C42160DA896DB4 /* Pods-QingHuaTestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QingHuaTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QingHuaTestDemo/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chemucao.cn.QingHuaTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		550824FE1DADD81600342C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC0021F16FF8072BD279ACE /* Pods-QingHuaTestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QingHuaTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QingHuaTestDemo/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chemucao.cn.QingHuaTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		550825001DADD81600342C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5182D8207398CA0DAA0E4EDF /* Pods-QingHuaTestDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QingHuaTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemucao.cn.QingHuaTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QingHuaTestDemo.app/QingHuaTestDemo";
+			};
+			name = Debug;
+		};
+		550825011DADD81600342C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D61E575583D5F56ABC89A3 /* Pods-QingHuaTestDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QingHuaTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemucao.cn.QingHuaTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QingHuaTestDemo.app/QingHuaTestDemo";
+			};
+			name = Release;
+		};
+		550825031DADD81600342C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16DEE4C823E9ED26273F6CD /* Pods-QingHuaTestDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = QingHuaTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemucao.cn.QingHuaTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QingHuaTestDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		550825041DADD81600342C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F73CFF2A17D04A1AF6F1CA /* Pods-QingHuaTestDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = QingHuaTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemucao.cn.QingHuaTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QingHuaTestDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550824CA1DADD81600342C22 /* Build configuration list for PBXProject "QingHuaTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550824FA1DADD81600342C22 /* Debug */,
+				550824FB1DADD81600342C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550824FC1DADD81600342C22 /* Build configuration list for PBXNativeTarget "QingHuaTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550824FD1DADD81600342C22 /* Debug */,
+				550824FE1DADD81600342C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550824FF1DADD81600342C22 /* Build configuration list for PBXNativeTarget "QingHuaTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550825001DADD81600342C22 /* Debug */,
+				550825011DADD81600342C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550825021DADD81600342C22 /* Build configuration list for PBXNativeTarget "QingHuaTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550825031DADD81600342C22 /* Debug */,
+				550825041DADD81600342C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550824C71DADD81600342C22 /* Project object */;
+}
